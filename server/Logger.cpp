@@ -18,7 +18,7 @@ Logger::~Logger()
     _fileLog.close();
 }
 
-//Функция считывания файла с данными пользователей
+//Функция записи лога в файл
 void Logger::write_log_messages(Message msg)
 {
     _shared_mutex.lock();
