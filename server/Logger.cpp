@@ -26,7 +26,7 @@ void Logger::write_log_messages(Message msg)
     _shared_mutex.unlock();
 }
 
-//Функция считывания файла сообщений
+//Функция считывания лога из файла
 void Logger::read_log_messages()
 {
     std::string from;
